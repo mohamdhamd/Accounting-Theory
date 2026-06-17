@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 
 <head>
@@ -4400,7 +4400,7 @@
         // ================================================================
         //  BOOKMARKS
         // ================================================================
-        const BOOKMARKS_KEY = 'spec_bookmarks';
+        const BOOKMARKS_KEY = 'theory_bookmarks';
         let pendingBookmarkData = null;
 
         function getBookmarks() {
@@ -4415,7 +4415,7 @@
         // ================================================================
         //  WRONG QUESTIONS PERSISTENCE
         // ================================================================
-        const WRONG_QUESTIONS_KEY = 'spec_wrong_questions';
+        const WRONG_QUESTIONS_KEY = 'theory_wrong_questions';
 
         function getWrongQuestions() {
             try { return JSON.parse(localStorage.getItem(WRONG_QUESTIONS_KEY)) || []; }
