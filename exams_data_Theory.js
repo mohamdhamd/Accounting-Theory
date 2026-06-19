@@ -423,22 +423,20 @@ const examsData = {
         "title": "اسئله البوكلت ",
         "description": "بسم الله وأبدأ - الـ 30 سؤال الكاملة للبوكليت الرسمي لنظريات المحاسبة بابل شيت",
         "questions": [
-            {
-                "id": 1,
-                "text": "-------- reflects the perspective that theories are not formed or arranged for particular purpose only, but it should be based on logical reasoning.",
-                "options": [
-                    { "id": "a", "text": "a. Coherent" },
-                    { "id": "b", "text": "b. Ad hoc" },
-                    { "id": "c", "text": "c. Systematic" },
-                    { "id": "d", "text": "d. Framework" },
-                    { "id": "e", "text": "e. Pragmatic" }
-                ],
-                "correct": "c",
-                "basmaga": "لمحت جملة إن النظرية مش معمولة لغرض معين أو مؤقت بس (not formed for particular purpose only) اختار المنهجي المنظم Systematic فوراً.",
-                "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (c) Systematic</strong><br><br>النظريات العلمية بطبيعتها ليست عشوائية أو مؤقتة (not ad hoc)، بل يجب أن تبنى على أساس تفكير منطقي منظم ومنهجي (Systematic reasoning) مستمر وليس لمعالجة حالة فردية طارئة.",
-                "reference": "l1-acc1",
-                "reference_title": "المحاضرة الأولى — ماهية النظرية المحاسبية"
-            },
+           {
+    "id": 1,
+    "text": "-------- reflects the perspective that theories are not formed or arranged for particular purpose only, but it should be based on logical reasoning.",
+    "options": [
+        { "id": "a", "text": "a. Coherent" },
+        { "id": "b", "text": "b. Ad hoc" },
+        { "id": "c", "text": "c. Systematic" },
+        { "id": "d", "text": "d. Framework" },
+        { "id": "e", "text": "e. Pragmatic" }
+    ],
+    "correct": "b",
+    "basmaga": "أول ما تلمح جملة 'ليست لغرض معين مؤقت بس' (not formed for particular purpose only)، اختار الارتجالي والمؤقت Ad hoc فوراً.",
+    "explanation": "<strong class=\"text-emerald-700\">الإجابة الصحيحة: (b) Ad hoc</strong><br><br>العبارة تنص صراحة على أن النظريات بطبيعتها ليست عشوائية أو مرتجلة ومصممة لغرض واحد مؤقت (not ad hoc)، حيث يعبر مصطلح Ad hoc محاسبياً وعلمياً عن الترتيبات المؤقتة المصممة لمعالجة حالة فردية طارئة فقط."
+},
             {
                 "id": 2,
                 "text": "Designed to explain and predict which firms will and which firms will not use a particular method, but it says nothing as to which method a firm should use\".",
